@@ -18,10 +18,11 @@ public class HolaMundo {
         System.out.println("Hola Mundo!");
         System.out.println("Hello world!");
         boolean ektorsmart = false;
-        if(!ektorsmart){
-            for (int i=0; i<=10; i++ ){
+        do{
+            for(int i=0; i<=10; i++ ){
                 System.out.println("Cara culo tú!");
             }
-        }  
-    }
+            ektorsmart = true;
+        }while(!ektorsmart);
+    }  
 }
