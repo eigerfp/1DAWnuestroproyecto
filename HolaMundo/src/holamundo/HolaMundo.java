@@ -18,8 +18,8 @@ public class HolaMundo {
         System.out.println("Hola Mundo!");
         System.out.println("Hello world!");
         boolean ariCuloFino;
-        ariCuloFino = false;
-        if (!ariCuloFino) {
+        ariCuloFino = true;
+        if (ariCuloFino) {
             for (int i = 0; i <= 5; i++) {
                 System.out.println("Cara culo tú!");
                 for (int x = 1; x <= 10; x++) {
