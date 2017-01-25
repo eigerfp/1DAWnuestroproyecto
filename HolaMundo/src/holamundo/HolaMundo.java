@@ -16,12 +16,13 @@ public class HolaMundo {
      */
     public static void main(String[] args) {
         System.out.println("Hola Mundo!");
-        System.out.println("Cara culo!");
-        
-        for (int i=0; i<=10; i++ ){
-        System.out.println("Cara culo!");
-       }
-         
+        System.out.println("Hello world!");
+        int ektor = 0;
+        boolean smart = false;
+        if(!smart || ektor==0){
+            for (int i=0; i<=10; i++ ){
+                System.out.println("Cara culo!");
+            }
+        }  
     }
-    
 }
