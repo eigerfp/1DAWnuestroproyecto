@@ -17,12 +17,18 @@ public class HolaMundo {
     public static void main(String[] args) {
         System.out.println("Hola Mundo!");
         System.out.println("Hello world!");
-        boolean ektorsmart = false;
-        do{
-            for(int i=0; i<=10; i++ ){
+        boolean ariCuloFino;
+        ariCuloFino = false;
+        if (!ariCuloFino) {
+            for (int i = 0; i <= 5; i++) {
                 System.out.println("Cara culo tú!");
+                for (int x = 1; x <= 10; x++) {
+                    System.out.println("  ");
+                    for (int a = 1; a <= 10; a++) {
+                        System.out.print(" * ");
+                    }
+                }
             }
-            ektorsmart = true;
-        }while(!ektorsmart);
-    }  
+        }
+    }
 }
